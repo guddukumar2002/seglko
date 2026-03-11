@@ -3,6 +3,14 @@
       "env": {
         "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
       }
-    }
+    },
+    "rewrites": [
+      { "source": "/ssitm/:path*", "destination": "/ssitm/index.html" },
+      { "source": "/sitm/:path*", "destination": "/sitm/index.html" },
+      { "source": "/scl/:path*", "destination": "/scl/index.html" },
+      { "source": "/scp/:path*", "destination": "/scp/index.html" },
+      { "source": "/scep/:path*", "destination": "/scep/index.html" },
+      { "source": "/lip/:path*", "destination": "/lip/index.html" }
+    ]
   }
   
