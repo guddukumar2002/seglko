@@ -25,6 +25,19 @@ const nextConfig = {
       },
     ];
   },
+
+  async rewrites() {
+    return [
+      {
+        source: '/ssitm',
+        destination: 'https://ssitm.vercel.app',
+      },
+      {
+        source: '/ssitm/:path*',
+        destination: 'https://ssitm.vercel.app/:path*',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
