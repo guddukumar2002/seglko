@@ -1105,10 +1105,8 @@ export const Header = () => {
                             <HiOutlineBuildingLibrary className="text-5xl" />
                           </div>
                           <div className="flex flex-col gap-2">
-                            <a
-                              href="https://ssitm.seglko.org"
-                              target="_blank"
-                              rel="noopener noreferrer"
+                            <Link
+                              href="/ssitm"
                               onClick={closeAllDropdowns}
                               className="flex flex-col gap-2"
                             >
@@ -1120,7 +1118,7 @@ export const Header = () => {
                                 Approved by AICTE and affiliated to
                                 AKTU,Lucknow,College Code : 007
                               </p>
-                            </a>
+                            </Link>
                           </div>
                         </motion.li>
 

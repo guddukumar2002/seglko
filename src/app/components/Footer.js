@@ -283,9 +283,9 @@ const Footer = () => {
             </div>
             <div className="flex flex-row items-start gap-2">
               <p>→</p>
-              <a href="https://ssitm.seglko.org" target="_blank" rel="noopener noreferrer">
+              <Link href="/ssitm">
                 Shivdan Singh Institute of Technology & Management
-              </a>
+              </Link>
             </div>
             <div className="flex flex-row items-start gap-2">
               <p>→</p>
