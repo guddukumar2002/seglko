@@ -23,21 +23,10 @@ const nextConfig = {
         destination: '/admission/fees-structure',
         permanent: true,
       },
-      {
-        source: '/ssitm',
-        destination: 'https://ssitm.seglko.org',
-        permanent: false,
-      },
-      {
-        source: '/ssitm/:path*',
-        destination: 'https://ssitm.seglko.org/:path*',
-        permanent: false,
-      },
     ];
   },
 
   async rewrites() {
-    // Rewrites removed - using subdomain instead
     return [];
   },
 };
