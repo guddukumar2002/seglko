@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { HiOutlineBuildingLibrary } from 'react-icons/hi2';
 import { MdPersonSearch } from 'react-icons/md';
 
