@@ -16,9 +16,9 @@ export default function OurInstitutions() {
           {/* Institutions Name */}
           <div className="w-full md:w-4/5 flex flex-col gap-2 pt-3">
             <div className="pb-2">
-              <p className="font-bold text-[#003963] text-lg md:text-xl lg:text-2xl">
+              <a href="https://ssitm.seglko.org" target="_blank" rel="noopener noreferrer" className="font-bold text-[#003963] text-lg md:text-xl lg:text-2xl hover:text-blue-600">
                 Shivdan Singh Institute of Technology and Management
-              </p>
+              </a>
               <p>College Code: 007</p>
               <p>Approved by AICTE and affiliated to AKTU, Lucknow.</p>
             </div>
