@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://seglko.org/sitm/sitemap.xml
